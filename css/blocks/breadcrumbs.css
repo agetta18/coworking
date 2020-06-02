@@ -1,0 +1,36 @@
+.breadcrumbs__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.breadcrumbs__item:after {
+  content: "/";
+  display: inline-block;
+  color: rgba(38, 36, 36, 0.8);
+  opacity: .8;
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+
+.breadcrumbs__item-link {
+  width: 126px;
+  height: 14px;
+  opacity: 0.8;
+  font-family: 'Gotham_Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(203, 35, 118, 0.8);
+}
+
+.breadcrumbs__item-link_active {
+  color:rgba(38, 36, 36, 0.8);
+  opacity: .8;
+  text-decoration: none;
+}

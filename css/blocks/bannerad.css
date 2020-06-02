@@ -1,0 +1,22 @@
+.banner__ad{
+  
+  text-align: center;
+  background-color: #28283f;
+  background-image: url(../../img/pattern.png);
+  background-position: center;
+  background-size: cover;
+  padding: 24px 5px ;
+  margin-right: 8px;
+  font-family: 'Gotham_Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  color: #ffffff;
+  line-height: 1.67;
+}
+
+.ad__bold-content{
+  color:#cb2376;
+  font-weight: bold;
+}

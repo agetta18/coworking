@@ -1,0 +1,30 @@
+.footer {
+  background: #28283f;
+  padding: 14px 0px 11px;
+}
+.footer__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__text{
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Gotham_Pro', sans-serif;
+  line-height: 1.29;
+  width: 300px;
+}
+
+.footer__text a{
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+.bold-text{
+font-weight:bold;
+}
+.footer__col{
+  vertical-align: middle;
+  color: #ffffff;
+}

@@ -1,0 +1,95 @@
+.page-text-content {
+  padding-top: 29px; 
+}
+
+
+
+.title__tariffs {
+  font-family: 'Gotham_Pro', sans-serif;
+  font-size: 49px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.78;
+  letter-spacing: normal;
+  text-align: left;
+  color: #262424;
+  padding-bottom: 43px;
+  padding-left: 14px;
+}
+
+.avatar {
+  border-radius: 3px;
+  position: relative;
+  display: inline-block;
+}
+
+.filter{
+  width: 273px;
+  height: 167px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  position: absolute;
+  background-color: #2b2b40;
+  opacity: 0.85;
+  border-radius: 3px;
+}
+
+.avatar__name {
+  font-family: "Gotham_Pro", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #8ad0f6;
+  text-transform: uppercase;
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.tariffs__text {
+  width: 240px;
+  height: 168px;
+  font-family: "Gotham_Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #262424;
+}
+
+.tariffs__name {
+  font-size: 18px;
+  font-weight: bold;
+  width: 250px;
+  text-align: center;
+  padding: 24px 0 10px 0;
+  line-height: 1;
+
+}
+
+.vip {
+  color: #cb2376;
+}
+
+.tariffs__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.tariffs__list .tariffs__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 35px;
+}
+

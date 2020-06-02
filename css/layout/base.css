@@ -1,0 +1,81 @@
+html, body{
+  height: 100%;
+}
+
+body {
+  margin: auto;
+  font-size: 16px;
+  line-height: 1.42;
+}
+
+.wrapper{
+  overflow: hidden;
+  min-width: 1200px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__content{
+  flex: 1;
+}
+
+.container{
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.reviews__container{
+  padding: 49px 0 0;
+}
+
+.tariffs__container{
+  padding: 30px 0 0;
+}
+
+.container--flex{
+  padding-top:30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+ 
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+ul li {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Gotham_Pro', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 49px;
+  margin: 0;
+  line-height: 0.78;
+}
+
+h3 {
+  font-size: 12px;
+  margin: 0;
+  font-family: 'Gotham_Pro', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+

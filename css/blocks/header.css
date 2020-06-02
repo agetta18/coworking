@@ -1,0 +1,21 @@
+.header{
+  background: #28283f;
+  padding-top: 12px;
+  padding-bottom: 13px;
+
+}
+.header__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__right{
+  text-align: right;
+}
+
+/* .header__left, .header__right{
+  width: 50%;
+} */
+
+

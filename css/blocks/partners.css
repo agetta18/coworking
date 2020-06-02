@@ -1,0 +1,42 @@
+.title__partners{
+  font-family: 'Gotham_Pro', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.78;
+  letter-spacing: normal;
+  text-align: center;
+  color: #262424;
+  text-transform: uppercase;
+  margin-bottom: 49px;
+  
+}
+
+.partners__item{
+  margin-bottom: 44px;  
+}
+
+.partners__list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -7px;
+}
+
+.partners__img{
+  filter: grayscale(1);
+  
+}
+
+.partners__img:hover{
+  filter: grayscale(0);
+  transition: .3s;
+}
+
+.partners{
+  border: solid 1px #e8e8ec;
+  padding:28px 64px 0px 67px;
+  vertical-align: center;
+}

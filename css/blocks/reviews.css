@@ -1,0 +1,93 @@
+
+.title__reviews{
+  padding: 1px 0 15px;
+  margin-left: 13px;
+  font-family: 'Gotham_Pro', sans-serif;
+  font-size: 49px;
+  font-weight: bold;
+  color: #262424;
+}
+
+
+.reviews__item{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 2px solid #f4f4f4;
+  padding: 29px 0 19px 1px;
+}
+
+.reviews__item:last-child {
+  border-bottom: initial;
+}
+
+.reviews__data{
+  font-size: 14px;
+  color: #656464;
+  font-family: 'Gotham_Pro', sans-serif;
+  margin-top: -1px;
+  line-height: 1.5;
+
+}
+
+.reviews__name{
+  font-family: 'Gotham_Pro', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0 0 8px;
+}
+
+.reviews__content{
+  font-family: 'GothamPro', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #262424;
+  line-height: 1.67;
+  font-stretch: normal;
+  font-style: normal;
+  padding-top:2px;
+  letter-spacing: normal;
+ 
+
+}
+
+.reviews__text{
+  padding-left: 19px;
+  margin-right: -8px;
+}
+
+.reviews__avatar{
+  overflow: hidden;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -4px;
+  
+}
+
+.reviews__avatar--no-photo{
+  background: url(../../img/reviews/avatar_three.png) no-repeat 50% 50%;
+  filter: grayscale(1);
+}
+
+.reviews__avatar--no-photo:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(240, 237, 237, 0.548);
+}
+.reviews__list{
+  padding-left:18px;
+}
+
+.reviews__avatar-pic{
+  width: 100%;
+}
+
+

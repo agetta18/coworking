@@ -1,0 +1,72 @@
+.socials {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.socials__title {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Gotham_Pro', sans-serif;
+  text-align: left;
+  padding-top: 30px;
+  padding-left:51px;
+}
+
+.socials__item,
+.socials__link {
+  display: inline-block;
+  text-align: center;
+}
+
+
+/* .socials__item {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #d3d3d7;
+  margin-right: 7px;
+  text-align: center;
+  font-size: 12px;
+}  */
+
+
+.socials__list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  padding-left: 13px;
+  padding-right: 15px;
+}
+
+.socials__item .socials__link {
+  text-decoration: none;
+  color: #28283f;
+}
+
+.socials__title--new{
+  color: #262424;
+}
+
+.socials__item{
+  font-size: 9px;
+  padding: 8px;
+  padding-left: 4px;
+  padding-right: 13px;
+  left:50%;
+}
+
+.socials__link{
+  position: relative;
+}
+
+.socials--tariffs .socials__title{
+  padding-top: 27px;
+  padding-left: 46px;
+}
+
+.socials--tariffs .socials__item{
+  padding-top: 11px;
+}

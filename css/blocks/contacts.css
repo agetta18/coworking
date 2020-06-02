@@ -1,0 +1,22 @@
+.contacts { 
+  text-align: right;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.contacts__phone {
+  font-family: 'Gotham_Pro', sans-serif;
+  font-size: 21px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.schedule {
+  font-family: 'Open_Sans', sans-serif;
+  font-size: 14px;
+}
+
+.schedule__link {
+  color: #ec1e79;
+  opacity: 0.7;
+}
